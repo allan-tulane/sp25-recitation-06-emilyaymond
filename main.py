@@ -11,10 +11,7 @@ def fib_recursive(n, counts):
     elif n == 1:
         return 1
     return fib_recursive(n-1, counts) + fib_recursive(n-2, counts)
-    
-n=10
-counts = [0] * (n+1)
-print(fib_recursive(n, counts))
+
 def fib_top_down(n, fibs):
     if n == 0:
         return 0
